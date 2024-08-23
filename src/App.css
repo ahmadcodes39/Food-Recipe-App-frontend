@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.bg-transparent {
+  background-color: transparent;
+}
+body {
+  background-color: whitesmoke;
+}
+.content-Img img {
+  /* width: 450px; */
+  max-width: 100%;
+  border-radius: 30px;
+  width: 100%;
+}
+.landingImg {
+  width: 100%;
+  object-fit: cover;
+  object-position: center center;
+  height: 80vh;
+  z-index: -1;
+  filter: grayscale(0%) brightness(45%);
+  border-radius: 20px;
+}
+.titleStyle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: +1;
+  text-align: center;
+}
+.langingHeading1 {
+  font-weight: 700;
+  background: linear-gradient(to right, orangered, orange);
+  color: transparent;
+  -webkit-background-clip: text;
+  font-size: 40px;
+  text-wrap: wrap;
+  word-break: break-all;
+}
+.langingHeading2 {
+  font-weight: 700;
+  background: linear-gradient(to right, orange, orangered);
+  color: transparent;
+  -webkit-background-clip: text;
+  font-size: 40px;
+  word-break: break-all;
+}
+.startBtn {
+  background: linear-gradient(to right, orange, orangered);
+  transition: background-color 0.3s ease;
+}
+.startBtn:hover {
+  background: linear-gradient(to right, orangered, orange);
+}
+.hoverBtn {
+  color: black;
+}
+.hoverBtn:hover {
+  color: white;
+}
+.custome-border {
+  border: 1px solid grey;
+  outline: none;
+}
+
+.content {
+  background: rgb(232, 245, 241);
+}
+.margin {
+  margin-left: -12px;
+}
+
+.links-color {
+  color: olivedrab;
+}
+.links-color:hover {
+  color: olive;
+  font-weight: 499;
+}
+.rounded-corners {
+  border: 0.5px solid green;
+}
+.img-styling {
+  object-fit: cover;
+  object-position: center center;
+  height: 100%;
+  object-fit: cover;
+  text-align: center;
+}
+
+.forgot-container {
+  border: 0.5px solid olive;
+  border-radius: 15px;
+}
+.searchBtn {
+  border: none;
+  outline: none;
+  border-top-left-radius: none;
+  border-bottom-left-radius: none;
+  /* width: 75px; */
+}
+.category {
+  transition: all 0.3s ease;
+  border-radius: 50px;
+}
+.category:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+img.category:focus{
+  border: 3px solid orange;
+}
+.cardImgStyle{
+  height: 50vh;
+  object-fit: cover;
+}
+
+.hoverLinks{
+  color: black;
+  transition: color 0.4s ease;
+}
+.hoverLinks:hover{
+  color: rgb(5, 92, 5);
+  
+}
+.stylingSpecificImg{
+  width: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+.myImages{
+  height: 50vh;
+  object-fit: cover;
+  cursor: pointer;
+
+}
+
+.inputBg{
+  background-color: lightgray;
+}
+.textDecoration{
+  text-decoration: none;
+  color: black;
+}
+@media (max-width: 991px) and (min-width:300px) {
+  .w-sm-100 {
+    width: 100% !important;
+  }
+}
+
+
+@media (min-width: 992px) and (max-width: 1400px) {
+  .vh-75 {
+    height: 70vh;
+  }
+}
